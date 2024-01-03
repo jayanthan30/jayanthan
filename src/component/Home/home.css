@@ -1,0 +1,57 @@
+.bg{
+    background-image: url('../img/home.jpeg');
+    width: 100vw;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    min-height: 100vh;
+    /* margin-top: -90px; */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+
+}
+.font{
+    padding: px;
+    font-size:500%;
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.font1{
+    color: antiquewhite;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 400%;
+}
+.font2{
+    color: antiquewhite;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 170%;
+}
+.recent-searches
+{
+margin-top: 50px;
+}
+.search-items {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.search-item {
+width: calc(23.33% - 20px);
+margin: 10px;
+}
+.product-image {
+max-width: 100%;
+height: auto;
+max-height: 150px;
+}
+.product-details {
+margin-top: 10px;
+}
+.change {
+color:black;
+transition: color 0.3s;
+}
+.change:hover{
+color: blue;
+}
